@@ -6,7 +6,6 @@ import { PropTypes } from 'prop-types'
 
 // local import
 import './styles.css'
-import { email } from 'utils/ImagesPath'
 
 const Input = (props) => {
   const {
@@ -31,7 +30,6 @@ const Input = (props) => {
         {title}
 
         <section className='section'>
-          <img src={email} alt='email' className='email-84' />
           <input
             type={text.length ? 'search' : 'text'}
             value={text}

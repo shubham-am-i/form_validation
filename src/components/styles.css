@@ -49,12 +49,14 @@
 /********************** Typography **********************/
 .H1Bold {
   font-family: CircularStd-Bold;
-  font-size: 3.375rem;
+  font-size: 3.75rem;
+
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.17;
-  letter-spacing: -1.69px;
-  color: #19191b;
+  line-height: 0.93;
+  letter-spacing: -1.03px;
+  text-align: center;
+  color: #fff;
 }
 
 .Para {
