@@ -1,0 +1,108 @@
+:root {
+  --tomato: #f04037;
+}
+/*********************** Input styles ************************/
+.section {
+  position: relative;
+}
+.Input {
+  width: 30.313rem;
+  height: 4rem;
+  padding: 0.313rem 0.313rem 0.313rem 0.43rem;
+  border-radius: 9px;
+  border: solid 0.9px #eae9f2;
+  background-color: #fff;
+  font-family: CircularStd-Book;
+  font-size: 1.013rem;
+  letter-spacing: -0.51px;
+}
+.email-84 {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.18rem;
+  width: 1.125rem;
+  height: 0.938rem;
+  object-fit: contain;
+}
+
+/******************* Button styles *********************/
+.button {
+  width: 11.25rem;
+  height: 3.375rem;
+  /* padding: 0.938rem 2.688rem 0.938rem 2.625rem; */
+  border-radius: 4.5px;
+  border: solid 0.9px #c31a12;
+  background-color: var(--tomato);
+}
+.button-text {
+  font-family: CircularStd-Medium;
+  font-size: 1.181rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.59px;
+  text-align: center;
+  color: #fff;
+}
+
+/********************** Typography **********************/
+.H1Bold {
+  font-family: CircularStd-Bold;
+  font-size: 3.375rem;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  color: #19191b;
+}
+
+.Para {
+  font-family: CircularStd-Book;
+  font-size: 1.181rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: #696871;
+}
+
+.Text {
+  font-family: CircularStd-Book;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  color: #696871;
+}
+.Text1 {
+  font-family: CircularStd-Bold;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  color: #696871;
+}
+
+.H6 {
+  font-family: CircularStd-Bold;
+  font-size: 1.35rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.68px;
+  color: #19191b;
+}
+
+.H7 {
+  font-family: CircularStd-Bold;
+  font-size: 1.181rem;
+  letter-spacing: -0.59px;
+  color: #19191b;
+}
