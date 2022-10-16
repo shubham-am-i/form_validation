@@ -2,27 +2,28 @@
   --tomato: #f04037;
 }
 /*********************** Input styles ************************/
-.section {
-  position: relative;
+.label {
+  /* margin-left: 0.3rem; */
+  font-family: CircularStd-Book;
+  font-size: 1.125rem;
+  letter-spacing: -0.56px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .Input {
-  width: 30.313rem;
-  height: 4rem;
-  padding: 0.313rem 0.313rem 0.313rem 0.43rem;
+  width: 25.313rem;
+  height: 3rem;
+  margin-top: 0.2rem;
+  padding: 0.313rem 0.313rem 0.313rem 1.688rem;
   border-radius: 9px;
   border: solid 0.9px #eae9f2;
   background-color: #fff;
   font-family: CircularStd-Book;
-  font-size: 1.013rem;
-  letter-spacing: -0.51px;
-}
-.email-84 {
-  position: absolute;
-  top: 1.5rem;
-  left: 1.18rem;
-  width: 1.125rem;
-  height: 0.938rem;
-  object-fit: contain;
+  font-size: 1.125rem;
+  letter-spacing: -0.56px;
 }
 
 /******************* Button styles *********************/
