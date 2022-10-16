@@ -3,7 +3,6 @@ import { useFormik } from 'formik'
 
 import { Para } from './components/Typography'
 import { H1 } from './components/Typography'
-import Button from './components/Button'
 
 import './Signup.css'
 import { signupSchema } from './schemas/signup'
